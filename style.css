@@ -147,4 +147,7 @@ color:orange;
     .side-menu ul li:hover ul{
         margin-left: 31S%;
     }
+    #menu-btn{
+        display: block;
+    }
 }
