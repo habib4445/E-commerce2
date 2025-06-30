@@ -130,3 +130,21 @@ color:orange;
     background: #ececec;
     box-shadow: 1px 1px 4px 1px;
 }
+@media only screen and (max-width:900px)
+{
+    .side-menu{
+        width: 34%;
+        z-index: 20;
+        top: 133px;
+        position: fixed;
+        font-size: 12px;
+        display: none;
+
+    }
+    .side-menu ul li ul{
+        top: 133px;
+    }
+    .side-menu ul li:hover ul{
+        margin-left: 31S%;
+    }
+}
